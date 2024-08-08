@@ -53,7 +53,7 @@ Divide to understand structure easily.
 name = "svvm"
 version = "0.1.0"
 edition = "2021"
-description = "A stack-based virtual machine"
+description = "A smallest stack-based virtual machine"
 license = "Apache-2.0"
 authors = ["Q0tzly"]
 repository = "https://github.com/Q0tzly/svvm/"
@@ -64,7 +64,7 @@ name = "svvm_core"
 path = "src/lib.rs"
 
 [[bin]]
-name = "svvm_cmd"
+name = "svvm-cli"
 path = "src/main.rs"
 
 [dependencies]
