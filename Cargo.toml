@@ -2,5 +2,14 @@
 name = "svvm"
 version = "0.1.0"
 edition = "2021"
+description = "The smallest stack base virtual machine"
+license = "Apache-2.0"
+authors = ["Q0tzly"]
+repository = "https://github.com/Q0tzly/svvm/"
+homepage = "https://q0tzly.com/"
+
+[lib]
+name = "svvm_core"
+path = "src/lib.rs"
 
 [dependencies]
